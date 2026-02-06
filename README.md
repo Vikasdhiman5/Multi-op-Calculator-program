@@ -15,8 +15,11 @@ A simple calculator program that performs multiple operations: Addition, Subtrac
 
 ### 1. **Program Structure**
 Multi-op Calculator Program
-├── Main function: calculator()
+
+├── Main function: calculator() 
+
 ├── Helper functions: add(), subtract(), multiply(), divide()
+
 └── Error handling for invalid inputs
 
 ### 2. **How It Works**
@@ -47,4 +50,5 @@ Multi-op Calculator Program
 ### Run the calculator:
 
 python calculator.py
+
 
