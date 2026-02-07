@@ -1,54 +1,72 @@
-# Multi-op Calculator Program
+# Multi-Operation Calculator (Python)
 
-## 📌 Project Overview
-A simple calculator program that performs multiple operations: Addition, Subtraction, Multiplication, and Division.
+## 📌 Project Description
 
-## 🛠️ Features
-- Addition (+)
-- Subtraction (-)
-- Multiplication (*)
-- Division (/)
-- Error handling for invalid inputs
-- Division by zero protection
+The Multi-Operation Calculator is a simple Python-based console application that performs basic and advanced mathematical operations such as addition, subtraction, multiplication, division, power, and modulus.
 
-## 🧠 Logic Breakdown
+This project is designed to help beginners understand the use of functions, conditional statements, and user input in Python.
 
-### 1. **Program Structure**
-Multi-op Calculator Program
+---
 
-├── Main function: calculator() 
+## ✨ Features
 
-├── Helper functions: add(), subtract(), multiply(), divide()
+- Perform Addition
+- Perform Subtraction
+- Perform Multiplication
+- Perform Division (with zero-division handling)
+- Calculate Power
+- Find Modulus
+- Easy-to-use menu system
+- Clean and readable code structure
 
-└── Error handling for invalid inputs
 
-### 2. **How It Works**
-1. **User Input Phase:**
-   - Program prompts for two numbers
-   - User selects an operation (+, -, *, /)
+---
 
-2. **Processing Phase:**
-   - Input validation checks
-   - Appropriate function is called based on operation
-   - Calculations are performed
+## 📖 Usage Guide
 
-3. **Output Phase:**
-   - Result is displayed in clear format
-   - Error messages shown for invalid operations
+After running the program:
 
-### 3. **Key Functions**
-- `add(a, b)`: Returns sum of a and b
-- `subtract(a, b)`: Returns a minus b
-- `multiply(a, b)`: Returns product of a and b
-- `divide(a, b)`: Returns a divided by b (with zero-check)
+1. The system will display a list of operations.
+2. Enter your choice (1 to 6).
+3. Enter two numbers.
+4. The calculator will display the result.
+5. Repeat the program as needed.
 
-### 4. **Error Handling**
+### Available Operations:
+
+| Choice | Operation   |
+|--------|-------------|
+| 1      | Addition    |
+| 2      | Subtraction |
+| 3      | Multiplication |
+| 4      | Division    |
+| 5      | Power       |
+| 6      | Modulus     |
+
+---
+
+## ⚠️ Error Handling
+
 - Prevents division by zero
-- Catches non-numeric inputs
-- Validates operation symbols
+- Displays "Invalid input" for wrong choices
 
-### Run the calculator:
+---
 
-python calculator.py
+## 🎓 Internship Acknowledgement
+
+This project was built during the **Cryptonic Area Python Porgramming Virtual Internship Program**.
+
+### Learning Outcomes
+
+While building this project, I learned:
+
+- How to create and use functions in Python
+- How to take user input and convert it to numeric values
+- How to apply conditional statements (if-elif-else)
+- How to handle runtime errors such as division by zero
+- How to organize code in a clean and readable manner
+- How to write proper documentation using README.md
+
+This project helped me improve my logical thinking, programming skills, and confidence in Python development
 
 
