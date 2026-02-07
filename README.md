@@ -69,4 +69,3 @@ While building this project, I learned:
 
 This project helped me improve my logical thinking, programming skills, and confidence in Python development
 
-
